@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Buoi1_LamQuenJava_KhaiBaoBien;
+package Bai1_LamQuenJava_KhaiBaoBien;
 
 /**
  *

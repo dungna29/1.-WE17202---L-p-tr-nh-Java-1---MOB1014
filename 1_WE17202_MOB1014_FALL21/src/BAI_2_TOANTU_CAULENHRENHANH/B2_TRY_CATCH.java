@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BAI2_ToanTu_CauLenhReNhanh;
+package BAI_2_TOANTU_CAULENHRENHANH;
 
 import java.util.Scanner;
 

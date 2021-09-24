@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Bai1_LamQuenJava_KhaiBaoBien;
+package BAI_1_LAMQUENVOIJAVA;
 
 import java.util.Scanner;
 

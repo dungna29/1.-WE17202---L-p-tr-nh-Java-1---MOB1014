@@ -24,7 +24,7 @@ public class S1_VongLap {
          * break - ngắt vòng lặp
          * continue: Sẽ bỏ qua các đoạn code phía sau nó và nó quay trở lại lần lặp tiếp theo.
          *
-         * Vòng lặp while: Chỉ chạy khi điều kiện luôn đúng và nếu điều kiện luôn đúng 
+         * Vòng lặp while: Chỉ chạxxy khi điều kiện luôn đúng và nếu điều kiện luôn đúng 
            ko điểm dừng thì được gọi là vòng lặp vô hạn.
          * + Cách dùng: wh + tab
          *
@@ -57,6 +57,7 @@ public class S1_VongLap {
         2. Điều kiện ngắt vòng lặp
         3. Bước nhẩy
     */
+    
     //for + tab
 //    for (int i = 0; i < 5; i++) {
 //      System.out.println("Chào các bạn");
@@ -70,11 +71,20 @@ public class S1_VongLap {
 //    }
     
     //do + tab
-    int i = 0;
-    do {
-      System.out.println("Chào các bạn");
-       i++;
-    } while (i < 5);
+//    int i = 0;
+//    do {
+//      System.out.println("Chào các bạn");
+//       i++;
+//    } while (i < 5);
+
+
+    //Viết 1 chương trình in ra các số từ 1 đến 10
+    for (int i = 1; i <= 10; i++) {
+      if (i%2!=0) {
+         continue;
+      }      
+      System.out.printf("%d \n",i);  
+    }
     
     //Bài tập: Xây dựng chương trình in bảng cửu chương bằng 3 loại vòng lặp
   }

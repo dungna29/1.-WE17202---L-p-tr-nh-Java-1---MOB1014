@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BAI_TAP_MAU_ARRAY_OOP;
+package BAI_TAP_MAU_LIST_OOP;
 
+import BAI_TAP_MAU_ARRAY_OOP.*;
 import java.util.Scanner;
 
 /**

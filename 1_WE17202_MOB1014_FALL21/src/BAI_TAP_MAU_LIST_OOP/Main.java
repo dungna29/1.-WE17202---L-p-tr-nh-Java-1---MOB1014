@@ -34,10 +34,10 @@ public class Main {
       input = sc.nextLine();
       switch (input) {
         case "1":
-          service.addGV();
+          service.addGV1();
           break;
         case "2":
-           service.editGV();
+           service.editGV1();
           break;
         case "3":
            service.removeGV();

@@ -16,7 +16,7 @@ public class S1_XuLyChuoi {
         System.out.println("");
 
         String name = "      Fpt POLY 2020        ";
-
+        
         //toLowerCase () //Cho hết về chữ thường
         System.out.println(name.toLowerCase());
         //toUpperCase () //Cho hết về chữ hoa

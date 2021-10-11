@@ -10,6 +10,7 @@ package BAI_6_KETHUA;
  * @author Dungna89
  */
 public class Person {//Lớp cha
+
   String ten;
   int ns;
   String diaChi;
@@ -81,5 +82,12 @@ public class Person {//Lớp cha
   public String toString() {
     return "Person{" + "ten=" + ten + ", ns=" + ns + ", diaChi=" + diaChi + ", sdt=" + sdt + ", queQuan=" + queQuan + ", cmt=" + cmt + '}';
   }
-  
+
+  public void inRaManHinh1() {
+    System.out.println("Đây là phương thức inRaManHinh1() của cha");
+  }
+
+  private void inRaManHinh2() {
+    System.out.println("Đây là phương thức inRaManHinh2() của cha");
+  }
 }

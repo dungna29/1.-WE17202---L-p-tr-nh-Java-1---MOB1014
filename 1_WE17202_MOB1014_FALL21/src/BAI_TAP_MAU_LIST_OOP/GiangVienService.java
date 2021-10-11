@@ -88,8 +88,7 @@ public class GiangVienService {//Nơi code các chức năng cho đối tượng
 
   //Ứng dụng phương trả về giúp lười hơn trong lập trình
   public void addGV1() {
-    System.out.println("Mời bạn nhập số lượng: ");
-    _input = _sc.nextLine();
+     _input = getInputValue("Mã");
     for (int i = 0; i < Integer.parseInt(_input); i++) {
       GiangVien gv = new GiangVien(getInputValue("Mã"), Integer.parseInt(getInputValue("ns")));
       _lstGiangVien.add(gv);

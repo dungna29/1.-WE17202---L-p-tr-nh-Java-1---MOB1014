@@ -45,7 +45,7 @@ public class S2_DemoChuoi {
   }
 
   static boolean checkSo(String input) {
-    Pattern pattern = Pattern.compile("\\d");
+    Pattern pattern = Pattern.compile("\\d");//Regex biểu thức chính quy
     Matcher matcher = pattern.matcher(input);
     return matcher.matches();//Nếu là số sẽ return true
   }

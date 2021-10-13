@@ -18,7 +18,22 @@ public class S2_DemoChuoi {
   static Scanner _Scanner = new Scanner(System.in);
 
   public static void main(String[] args) {
-    nhapSo();
+    nhapTen();
+  }
+  //Viết 1 chương trình nhập đầy đủ họ tên vào và viết hoa chữ cái đầu của các từ bên trong.
+  //nguyen anh dUNG = Nguyen Anh Dung
+  public static void nhapTen(){
+    System.out.println("Mời bạn nhập đầy đủ họ tên: ");
+    String name = _Scanner.nextLine();
+    //Xử lý chuỗi
+    name = name.trim();
+    String[] arr = name.split("\\s+");
+    for (String x : arr) {
+      System.out.print(vietHoaChuCaiDau(x) +" ");
+    }
+  }
+  public static String vietHoaChuCaiDau(String temp){//dung = Dung
+    return String.valueOf(temp.charAt(0)).toUpperCase() +temp.substring(1).toLowerCase();
   }
 
   //Ví dụ 1: Tìm kiếm gần đúng trong 1 mảng tên

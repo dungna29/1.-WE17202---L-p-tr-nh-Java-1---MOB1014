@@ -5,6 +5,7 @@
  */
 package GIAI_DE_THI_THU;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -20,6 +21,7 @@ public class QLVC {
   List<Vaccine> _lstVaccines;
   Vaccine _Vaccine;
   public QLVC() {
+    _lstVaccines = new ArrayList<>();
   }
   public void add(){
     do {      
